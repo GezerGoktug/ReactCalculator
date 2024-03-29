@@ -1,0 +1,12 @@
+.key-wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .key-wrapper {
+    gap: 10px;
+  }
+}
